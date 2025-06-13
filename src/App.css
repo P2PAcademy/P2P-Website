@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@media (max-width: 260px) {
+    .logo-text {
+      display: none;
+    }
+    .logo-img {
+      height: 24px;
+    }
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+
+  html, body {
+    overflow-x: hidden; /* This can sometimes interfere */
+  }
